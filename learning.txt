@@ -1,0 +1,65 @@
+What You'll Learn
+
+Creating your first RESTful API 
+testing APIs with Postman
+Handling dynamic routes
+Setting HTTP status codes
+Using DTOs(Data Transfer Objects)
+
+Extracting query parameter, request headers/body
+Performing CRUD operations(Create, Update, Delete)
+Handling action-based updates
+
+
+## Iterable<T> -----> List<T> ## 
+interface --> all list is iterable but all interable not list
+
+## Data Transfer Object ##
+
+A DTO(Data Transfer Object) is a simple Java object used to transfer 
+data between different layers of an application.
+
+
+
+## Libraries ##
+ModelMapper
+MapStruct
+
+
+## Customizing response Data ##
+                   Serializations
+                  ------------------> 
+      java object ------------------- JSON
+                  <------------------
+                    Deserialization
+
+Customizing response Annotation
+@JsonIgnore
+@JsonProperty
+@JsonInclude
+@JsonFormat
+
+
+## Extracting request headers ##
+
+## Extracting request body ##
+
+## Creating Resources ##
+
+## Updating responses ##
+
+## Deleting Resources ##
+
+## Action-Based Updates ##
+- We use PUT/PATCH for updating Resources
+- Some updates represent an "action"
+- Examples:changing password, submit approval request
+-  Better to use a POST request
+- Create a request to perform an "action"
+
+
+
+
+
+
+
